@@ -6,6 +6,10 @@ Robert C. Martin
 
     [Leiningen](http://leiningen.org/)
 
+## Testing
+
+    lein spec
+
 ## Running
 
     lein run
