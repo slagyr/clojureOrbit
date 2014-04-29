@@ -1,6 +1,5 @@
 (ns orbitmain
-  (:use orbit.world)
-  (:gen-class))
+  (:require [orbit.world :as world]))
 
 (defn -main [& args]
-  (run-world))
+  (world/run-world))
